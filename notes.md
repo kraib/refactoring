@@ -1,8 +1,8 @@
 ### Introduction
-When building software we breaking down concepts into small compassable units, which are easy to change. Just like Jeffrigs everything stays-- "Glass is glass and glass breaks"
+When building software we breaking down concepts into small composable units, which are easy to change. Just like Jeffrigs everything says-- "Glass is glass and glass breaks"
 So, software is soft and soft means easy to change.
 
-Breaking down concepts/problems into small compassable units is factoring and changing these units is refactoring.
+Breaking down concepts/problems into small composable units is factoring and changing these units is refactoring.
 
 ### What is refactoring (Textbook)?
 Changing internal structure to code without affecting its external behavior. This is normally done to improve performance or improving the internal structure. (Normally to reduce complexity and increase readability).
