@@ -18,6 +18,20 @@ public class CustomerTest {
         assertEquals(statement, result);
     }
 
+    @Test
+    public void can_print_html_statement(){
+        Customer customer = new Customer(
+                "Ing. Meike Fritsch"
+        );
+        Rental rental = create_rental();
+        customer.addRental(rental);
+        String statement = customer.HTMLstatement();
+        String result ="<H1>Rental  Record  for  Ing. Meike Fritsch</H1>" +
+                "<p>Sound of Music</p>15.0<br/>" +
+                "Amount  owed  is  15.0<br/>" +
+                "You  earned  1  frequent  renter  points";
+        assertEquals(statement, result);
+    }
     public Rental create_rental(){
         Movie movie = new Movie("Sound of Music", Movie.CHILDREN);
         Rental rental = new Rental(movie, 12);
