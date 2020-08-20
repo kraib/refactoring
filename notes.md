@@ -28,7 +28,7 @@ This is a tell-tell sign that. You’re doing something wrong but this what norm
 **Long term refactoring.**
 When you have the desired state you want the entire code base to be at but slowly make refactors to reach that goal. Then we will have well-fitted components that are easy to change.
 This is something that some people do before the start of the project in the planning phase but it’s extremely hard to achieve.
-A common technique used is called branch my abstraction [Link](https://martinfowler.com/bliki/BranchByAbstraction.html)
+A common technique used is called branch my abstraction [Link](https://martinfowler.com/bliki/BranchByAbstraction.html)  
 **Why**
 - Economic (Not modular, cleaner) Like Kevlin Henney once titled his talk cars have brakes so that we can go faster.
 - Design stamina Hypothesis (Very fancy big word to leave you with). (Design pay off) The better the design the easier it is to add new features.
