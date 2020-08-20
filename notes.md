@@ -1,5 +1,5 @@
 ### Introduction
-When building software we breaking down concepts into small composable units, which are easy to change. Just like Jeffrigs everything says-- "Glass is glass and glass breaks"
+When building software we breaking down concepts into small composable units, which are easy to change. Just like [Jerryrigeverything](https://www.youtube.com/results?search_query=jerryrigeverything) everything says-- "Glass is glass and glass breaks"
 So, software is soft and soft means easy to change.
 
 Breaking down concepts/problems into small composable units is factoring and changing these units is refactoring.
