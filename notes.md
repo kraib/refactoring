@@ -30,6 +30,6 @@ When you have the desired state you want the entire code base to be at but slowl
 This is something that some people do before the start of the project in the planning phase but it’s extremely hard to achieve.
 
 **Why**
-- Economic (Not modular, cleaner) Like Kelvin Heiney once titled his talk cars have brakes so that we can go faster.
+- Economic (Not modular, cleaner) Like Kevlin Henney once titled his talk cars have brakes so that we can go faster.
 - Design stamina Hypothesis (Very fancy big word to leave you with). (Design pay off) The better the design the easier it is to add new features.
 - [Echo Martin Fowler’s words] I call this a hypothesis because it is an opinion, there is no objective proof that this phenomenon occurs. In scientific terms, it's not a very good hypothesis because it's hard to test. We CannotMeasureProductivity nor can we measure design quality.
