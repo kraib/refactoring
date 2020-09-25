@@ -29,15 +29,15 @@ class Customer {
 
             //determine  amounts  for  each  line
             switch  (each.getMovie().getPriceCode())  {
-                case  PriceModes.REGULAR:
+                case  MoviePriceCodes.REGULAR:
                     thisAmount  +=  2;
                     if  (each.getDaysRented()  >  2)
                         thisAmount  +=  (each.getDaysRented()  -  2)  *  1.5;
                     break;
-                case  PriceModes.NEW_RELEASE:
+                case  MoviePriceCodes.NEW_RELEASE:
                     thisAmount  +=  each.getDaysRented()  *  3;
                     break;
-                case  PriceModes.CHILDREN:
+                case  MoviePriceCodes.CHILDREN:
                     thisAmount  +=  1.5;
                     if  (each.getDaysRented()  >  3)
                         thisAmount  +=  (each.getDaysRented()  -  3)  *  1.5;
@@ -48,7 +48,7 @@ class Customer {
             //  add  frequent  renter  points
             frequentRenterPoints  ++;
             //  add  bonus  for  a  two  day  new  release  rental
-            if  ((each.getMovie().getPriceCode()  ==  PriceModes.NEW_RELEASE)&& each.getDaysRented()  >  1)  frequentRenterPoints  ++;
+            if  ((each.getMovie().getPriceCode()  ==  MoviePriceCodes.NEW_RELEASE)&& each.getDaysRented()  >  1)  frequentRenterPoints  ++;
             //show  figures  for  this  rental
             result  +=  "\t"  +  each.getMovie().getTitle()+  "\t"  +
                     String.valueOf(thisAmount)  +  "\n";
