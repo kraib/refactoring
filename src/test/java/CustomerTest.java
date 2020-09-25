@@ -19,7 +19,7 @@ public class CustomerTest {
     }
 
     public Rental create_rental(){
-        Movie movie = new Movie("Sound of Music", Movie.CHILDREN);
+        Movie movie = new Movie("Sound of Music", MoviePriceCodes.CHILDREN);
         Rental rental = new Rental(movie, 12);
         return rental;
     }
